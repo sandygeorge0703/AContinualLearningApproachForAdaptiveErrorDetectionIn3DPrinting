@@ -165,7 +165,6 @@ bash run_benchmark_experiments.sh
 
 ## Notes / gotchas
 
-- `my_new_env/` appears to be a committed virtual environment (generated files). It is usually best to avoid committing virtualenvs and instead recreate them locally.
 - Runner scripts reference specific HPC paths (e.g. `/gpfs01/...`). Update those before running locally.
 
 ## Contributing
